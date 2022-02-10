@@ -1,0 +1,68 @@
+section {
+  background-color: grey;
+  height: 600px;
+  width: 560px;
+  margin-left: 25%;
+  border: 9px solid rgb(233, 229, 229);
+  border-style: inset;
+}
+
+.vun {
+  background-color: blue;
+  height: 70px;
+  width: 70px;
+}
+
+.vdeux {
+  background-color: red;
+  height: 70px;
+  width: 70px;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.vtrois {
+  background-color: rgb(180, 180, 175);
+  height: 70px;
+  width: 70px;
+  font-size: 50px;
+  padding-left: 20px;
+  border: 2.5px dotted black;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.hide {
+  /* visibility: hidden; */
+  opacity: 0;
+}
+
+.hide:hover {
+  opacity: 1;
+}
+
+body {
+  background-color: black;
+}
